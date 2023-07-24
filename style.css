@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8f8f8;
+    padding-top: 5rem;
+}
+
+.Project-management-board{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border: 2px solid #f3f3f3;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem ;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:2rem ;
+    padding-bottom: 2rem;
+    border: 1rem;
+    border-bottom:2px solid #f7f7f7;
+}
+
+.left-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    justify-content: center;
+
+}
+
+
+.upper-left-container-list{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.title-container h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.small-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.small-button-container p{
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    background-color: rgb(220, 245, 220);
+    color: rgb(19, 72, 19);
+    border-radius: 1rem;
+    border: 1px solid rgb(18, 46, 18);
+}
+
+.due-date-container{
+    width: fit-content;
+    height: auto;
+}
+
+.due-date-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+
+.right-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: 2px solid #8d8d8d;
+    font-weight: bold;
+    background-color: white;
+    color: grey;
+
+}
+
+.icon-container{
+    width: fit-content;
+    height: auto;
+}
+
+.icon-container img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bottom{
+    border: none;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .button-container{
+        display: none;
+    }
+
+    .button-container button{
+        display: none;
+    }
+
+    .Project-management-board{
+        width: 94%;
+        height: auto;
+        background-color: white;
+        border: 2px solid #f3f3f3;
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 1rem ;
+        
+    }
+}
